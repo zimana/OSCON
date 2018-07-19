@@ -12,8 +12,8 @@ library(twitteR)
 library(devtools)
 library(ROAuth)
 #call Twitter with OAuth via ROAuth
-#obtain keys from dev.twitter.com - a Twitter account is required 
-setup_twitter_oauth("SSAEGOWJ2OI5LT7tDUPjeP96v","bpyHAXEQu943fHuqHEKz1XsDhFiH8vAPG90d3ZnKi0JlVlxyLA","15826695-CWMB6YG8P1iw3lf2en7ndIgDfJEI6yJx3Q2lBZ7rV","B1aWinOjYHHwwUm4UlaWTCZAp7ihFATDo6NepWiBXrUdG")
+#obtain keys from apps.twitter.com - a Twitter account is required 
+setup_twitter_oauth("consumer key goes here"," consumer secret key goes here","access token goes here","access token secret goes here")
 #call a Timeline if you want to see an account and verify.
 userTimeline("IHOP")
 #create an object and call searchTwitter to see what is assocaited with a word. This returns a 
